@@ -1,0 +1,124 @@
+
+
+body{
+  margin:0;
+  padding: 30px 15px;
+  
+}
+
+
+
+/* 1.HEADER*/
+
+header{
+  width: auto;
+  padding: 1px;
+  background-color:rgba(238,238,238,255);
+  color:rgba(47,51,52,255); 
+}
+
+#title,#subtitle,h1{
+  text-align:center;
+  font-family: Helvetica;
+  color:rgba(47,51,52,255);
+}
+
+#title{
+  font-size:30px;
+  font-weight:bold;
+  margin-top:40px;
+}
+
+#subtitle{
+  margin-top:35px;
+  font-size:14px;
+}
+
+
+/* 2.MAIN*/
+
+/* 2.1 SECTION FOTO*/
+
+#section-foto{
+  background-color: white;
+}
+
+#image{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  padding-top: -10px;
+  width: 1024px;
+  max-width:100%;
+}
+
+#img-caption{
+  text-align:center;
+  font-family: Helvetica;
+  font-size:14px;
+}
+
+
+/* 2.2 SECTION-TIME-LINE*/
+
+#time-line{
+  width: auto;
+  margin-top:40px ;
+  padding: 1px;
+  background-color:rgba(238,238,238,255);
+  color:rgba(47,51,52,255); 
+}
+
+h1{
+  font-size:18px;
+  padding-top:2em;
+  padding-bottom: 2em;;
+  font-weight: bold;
+  }
+
+  .dashed::before {
+    content: " - ";
+    text-indent: -5px;
+  }
+  
+  .bold{
+    font-weight: 900;
+    
+  }
+  
+  li{
+    padding:14px 0 14px 0;
+    font-family: Helvetica;
+    font-size: 16px;
+    line-height: 200%;
+  }
+
+  #elenco{
+    margin:0 600px 0 600px;
+  }
+  
+  /* 3. SECTION-TRIBUTE INFO*/
+
+  #citazione{
+    font-family: Helvetica;
+    margin-left: 30px;
+    line-height: 200%; 
+  }
+
+
+  #tribute-info{
+    font-family: Helvetica;
+    line-height: 200%;
+    font-size: 20px;
+    width: 1000px;
+    font-weight: bold;
+    margin-left: -120px;
+    margin-top: 50px;
+    
+  }
+  
+  #tribute-link{
+    color:cornflowerblue;
+  }
+ 
